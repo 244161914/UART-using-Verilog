@@ -176,3 +176,24 @@ For further clarifications, you can refer to the provided "Step by Step Implemen
 ## Contact
 
 For any questions or suggestions, please contact dilshanlasindu0@gmail.com.
+## Yuwen's study notes
+
+### What this project does
+This project implements a UART in Verilog, including:
+- transmitter.v
+- receiver.v
+- baudrate.v
+- uart.v
+- uart_TB.v
+
+### What I need to understand
+- UART frame format
+- Why receiver uses oversampling
+- How baudrate generator works
+- How the testbench verifies TX/RX loopback
+
+### My next steps
+- Read transmitter.v
+- Read receiver.v
+- Understand uart_TB.v
+- Try to reproduce simulation
