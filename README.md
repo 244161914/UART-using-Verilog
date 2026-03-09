@@ -170,27 +170,7 @@ In the future, we plan to expand this project by:
 - Implementing the UART communication on seven-segment displays. (Already available in [UART using verilog with FPGA 2nd](https://github.com/LasiduDilshan/UART-using-Verilog/tree/main/UART%20using%20verilog%20with%20FPGA%202nd))
 
 By following these steps, you can successfully simulate, implement, and test the UART communication project using Quartus II (or Quartus Prime) and ModelSim. This guide provides a structured approach to help you understand the process of synthesizing and simulating Verilog circuits effectively.
-## Yuwen's study notes
 
-### What this project does
-This project implements a UART in Verilog, including:
-- transmitter.v
-- receiver.v
-- baudrate.v
-- uart.v
-- uart_TB.v
-
-### What I need to understand
-- UART frame format
-- Why receiver uses oversampling
-- How baudrate generator works
-- How the testbench verifies TX/RX loopback
-
-### My next steps
-- Read transmitter.v
-- Read receiver.v
-- Understand uart_TB.v
-- Try to reproduce simulation
 For further clarifications, you can refer to the provided "Step by Step Implementation.docx" (https://github.com/LasiduDilshan/UART-using-Verilog/blob/main/Step%20by%20Step%20Implementation.docx).
 
 ## Contact
